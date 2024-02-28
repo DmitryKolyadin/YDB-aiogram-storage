@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aiogram-ydb-storage"
+version = "0.1.0"
+description = "FSM Storage for YDB (Yandex Database)"
+authors = ["Dmitry (DevDK) <Dmitry@kolyadin.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.0.0"
+ydb = {version = "3.5.0", extras = ["yc"]}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
